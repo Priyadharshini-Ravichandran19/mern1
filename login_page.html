@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>login page</title>
+    <link rel="stylesheet" href="login.css">
+    <title>Login Page</title>
 </head>
 <body>
-    <h1 class="heading"><center>WELCOME TO LOGIN PAGE</center></h1>
-    <form>
     <div class="content">
-    <label>Name : </label>
-    <input  type="text"><br><br>
-    <label>Password : </label>
-    <input type="text"><br><br>
-    <button value="submit">Submit</button>
-</div>
-</form>
+        <div class="heading">Login</div>
+        <label>Name:</label>
+        <input type="text" id="user" required><br><br>
+        <label>Password:</label>
+        <input type="password" id="pass" required><br><br>
+        <button type="button" onclick="handleLogin()">Submit</button>
+        <p id="error"></p>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>

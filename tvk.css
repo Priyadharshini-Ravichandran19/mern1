@@ -1,0 +1,16 @@
+.container{
+
+}
+.container div{
+    background-color: rgb(211, 11, 11);
+    height: 140px;
+}
+.container .two{
+    background-color: rgb(243, 160, 28);
+   
+}
+.container .img
+{
+    border-radius: 50%;
+
+}

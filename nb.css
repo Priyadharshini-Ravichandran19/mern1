@@ -1,0 +1,18 @@
+.container{
+    background-color: paleturquoise;
+    height:50px;
+    padding: 0%;
+}
+ul{
+    display: flex;
+}
+li{
+  
+  color: white;
+  padding: 16px;
+  font-weight: 500;
+}
+li:hover{
+    border-radius: 60%;
+    background:rgb(0, 0, 255);
+}
